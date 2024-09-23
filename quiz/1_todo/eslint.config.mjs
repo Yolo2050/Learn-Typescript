@@ -42,6 +42,7 @@ export default [
         },
       ],
       '@typescript-eslint/no-explicit-any': 'off',
+      '@typescript-eslint/explicit-function-return-type': 'error', // 함수 반환 타입 명시 규칙 추가
       'prefer-const': 'off',
     },
   },
