@@ -15,7 +15,6 @@ function fetchTodos() {
   const todos = fetchTodoItems();
   return todos;
 }
-
 function addTodo(todo) {
   todoItems.push(todo);
 }
